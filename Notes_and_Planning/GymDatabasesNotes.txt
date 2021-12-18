@@ -1,0 +1,16 @@
+Gym
+
+gymUser -> foreign key will be primary
+	userId,userName, firstName, lastName, password,dateSignedup
+gymInfo -> infoNum, related to gymUser foreign id
+	userid, height,heightUnit, weight,weightUnit, age, birthday
+gymCurrentMaxes -> related to gymUser foreign id
+	userid, MaxDescription, Amount, Unit(lbs or kilos), repAmount
+gymLiftingLog -> related to gymUser foreign id
+	userid, Date, Amount, Unit(lbs or kilos), reps
+gymWeightLog -> related to gymUser foreign id
+	userid, Date, Amount, Unit(lbs or kilos)    
+gymDietLog -> related to gymUser foreign id
+	day, calories, protein, carbs, fats    
+
+*allow multiple same descriptions and only highest?
