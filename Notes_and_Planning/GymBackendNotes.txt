@@ -5,3 +5,6 @@ Basic Get/Insert/update/delete get/post/put/delete api for all 6 databases
 figure out spring api configurations
 
 gymUser -> GymUser object all values from db columns, 
+
+core interface person requires all gym objects
+multithreading?
