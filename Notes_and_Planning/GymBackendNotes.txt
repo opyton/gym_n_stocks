@@ -1,5 +1,7 @@
 Gym
 
+Super class User -> every class requires userId (foreign key for all relation), and apikey. encryption verified using basic (timed by expiration) 
+
 Basic Get/Insert/update/delete get/post/put/delete api for all 6 databases
 
 figure out spring api configurations

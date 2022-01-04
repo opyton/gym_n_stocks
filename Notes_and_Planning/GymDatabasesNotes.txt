@@ -14,3 +14,14 @@ gymDietLog -> related to gymUser foreign id
 	day, calories, protein, carbs, fats
 
 *allow multiple same descriptions and only highest?
+
+// Get Column name/categories
+/*****************************/
+SELECT
+    column_name,
+    data_type
+FROM
+    information_schema.columns
+WHERE
+    table_name = 'gymUser';
+/*****************************/

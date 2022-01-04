@@ -1,5 +1,5 @@
 postgres superuser
-password->password
+password-> password
 port 5432
 
 pgadmin password -> pgadmin
@@ -28,3 +28,6 @@ ALTER TABLE IF EXISTS "gymData"."gymUser"
 
 INSERT INTO "gymData"."gymCurrentMaxes" ("maxDescription", "amount","unit","repAmount","userId")
 VALUES('Squat',265,'lbs','3',1);
+
+ALTER TABLE "gymData"."gymUser" 
+DROP COLUMN IF EXISTS "password";
